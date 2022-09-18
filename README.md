@@ -27,6 +27,8 @@ However, for most use cases, only the latter two programs will be run, as the fi
 
 <i>statistics</i> generates histograms and can run t-tests on matched .csv's to display the distribution of environmental justice communities within a dataset.
 
+<i>zcta_ej_special</i> and <i>Zip_EJ_Matching_Special</i> are identical to the corresponding base programs, but include code to display additional variables of interest.
+
 ## Typical Use Case
 
 What is this used for?

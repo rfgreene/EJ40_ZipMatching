@@ -13,9 +13,8 @@ The <i>Justice40 dataset</i> evaluates U.S. communities according to several soc
 ## Programs
 
 The full data pipeline runs:
-<pre><code>
-txt2csv.ipynb --> zcta_ej.ipynb --> Zip_EJ_Matching.ipynb --> statistics.ipynb
-</pre></code>
+
+<code>txt2csv.ipynb --> zcta_ej.ipynb --> Zip_EJ_Matching.ipynb --> statistics.ipynb</code>
 
 However, for most use cases, only the latter two programs will be run, as the first two programs are used to generate lookup tables, which do not need to be re-generated in most cases.
 

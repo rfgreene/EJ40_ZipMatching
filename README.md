@@ -16,7 +16,7 @@ The full data pipeline runs:
 
 <code>txt2csv.ipynb --> zcta_ej.ipynb --> Zip_EJ_Matching.ipynb --> statistics.ipynb</code>
 
-However, for most use cases, only the latter two programs will be run, as the first two programs are used to generate lookup tables, which do not need to be re-generated in most cases.
+However, for most use cases, only the latter two programs will be run, as the first two programs are used to generate lookup tables, which do not need to be re-generated for projects that use zip codes as the input geography.
 
 <i>txt2csv</i> converts a .txt file to a .csv file, and is used to convert the zip code/tract crosswalk into a more flexible format.
 
@@ -30,7 +30,7 @@ However, for most use cases, only the latter two programs will be run, as the fi
 
 ## Typical Use Case
 
-What is this used for?
+The traditional use case of this project is to match petitioner zip codes taken from public comments on [regulations.gov](https://www.regulations.gov/) to Census tracts in order to compare how different campaigns mobilize environmental justice communities. This project could also be used to match other datasets with the Justice40 data based on zip codes, or, with minor modifications and the appropriate crosswalk, other geographies.
 
 ## Workflow
 

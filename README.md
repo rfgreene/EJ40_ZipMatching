@@ -34,4 +34,4 @@ The traditional use case of this project is to match petitioner zip codes taken 
 
 ## Workflow
 
-Describe workflow
+To append key environmental justice indicators to one or multiple spreadsheets containing a zip code column (which must be titled "Zip"), simply place those spreadsheets within a folder inside the <code>data/to_match</code> folder. Then, input the name of that subfolder (just the name, not the full path) as a string argument to the <code>match()</code> function call in the second code block of Zip_EJ_Matching.ipynb. Run that program (make sure you run the first code block first!) and a copy of the input spreadsheet(s) with environmental justice data appended will be in a corresponding subfolder under <code>data/matched</code>.
